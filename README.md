@@ -1,4 +1,4 @@
-# UK
+ # UK
 Mapping memory challenge: map of the UK
 
 ## Technologies
@@ -11,13 +11,13 @@ Mapping memory challenge: map of the UK
  
  2.Craig-yr-unbeb (Union Rock)
  
- 3.Llanberys (mining town)
+ 3. Llanberys (mining town)
  
- 4.Caban (former school--a restaurant and art community now)
+ 4. Caban (former school--a restaurant and art community now)
  
- 5.Royal Cambrian Academy
+ 5. Royal Cambrian Academy
  
- 6.Castell Caernarfon Castle (Welsh castle that was taken over--in 900s?-- by the English; the Castle Charles was crowned Prince of Wales)
+ 6. Castell Caernarfon Castle (Welsh castle that was taken over--in 900s?-- by the English; the Castle Charles was crowned Prince of Wales)
  
  7. Dinorwyg (Anglacized spelling and pronunciation: Dinorwyc)--slate quarry
  
