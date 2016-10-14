@@ -11,14 +11,7 @@
       // declare Mapbox access token
       L.mapbox.accessToken = "pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g";
       // initialize map
-      var markers = new L.FeatureGroup();
-      var map = L.mapbox.map(document.getElementById("map-canvas"), "michaelnet.12df45f8");
-      navigator.geolocation.getCurrentPosition(function(position) {
-        viewModel.userPosition(position);
-        map.setView(L.latLng(position.coords.latitude, position.coords.longitude), 12);
-      }, function(error) {
-        alert("This application needs to talk to your browser about your geolocation in order to work properly. If you declined permission, refresh your browser to try again. Otherwise, consider using a browser with geolocation enabled. Error Message: " + error)
-      });
+      L.mapbox.map('map', 'mapbox.streets');
     </script>
 </body>
 </html>
