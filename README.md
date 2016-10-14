@@ -7,6 +7,7 @@ Mapping memory challenge: map of the UK
  * Data pulled from various sources and compiled to a local JSON file
 
 ## Sites
+
  1. Big Pit National Coal Museum
  
  2. Craig-yr-unbeb (Union Rock)
@@ -31,8 +32,7 @@ Mapping memory challenge: map of the UK
  
  12. Port Dinorwyc (Anglecized version of Dinorwyg; aka Y Felinheli--literally called "The Mill" or called "The Mill on the River Helen")  
  
- 13. Vaynol Estate (Dinorwyg was owned by the Asshton-Smith 
- 17family)
+ 13. Vaynol Estate (Dinorwyg was owned by the Asshton-Smith family)
  
  14. Penrhyn Castle (owners of the Penrhyn Quarry--built in the late 19th cent.)
  
@@ -42,4 +42,4 @@ Mapping memory challenge: map of the UK
  
  17. Bodnant Gardens
  
- 18, Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town)
+ 18. Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town)
