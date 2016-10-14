@@ -1,5 +1,11 @@
 # UK
 Mapping memory challenge: map of the UK
+
+## Technologies
+ * Leaflet.js for map interactivity
+ * Mapbox for map tiling
+ * Data pulled from various sources and compiled to a local JSON file
+
 ## Sites
  1.
  
