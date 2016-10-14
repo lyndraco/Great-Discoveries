@@ -1,4 +1,7 @@
-  # UK
+
+http://www.portmeirion-village.com/
+http://www.caernarfon-castle.co.uk/attractions/item/1032/Portmeirion_Village_and_Gardens.html
+# UK
 Mapping memory challenge: map of the UK
 
 ## Technologies
@@ -43,3 +46,6 @@ Mapping memory challenge: map of the UK
  17. Bodnant Gardens: 53.235047, -3.799055
    https://www.nationaltrust.org.uk/bodnant-garden,  http://www.bodnantgarden.co.uk/
  18. Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town): 52.913533, -4.098928
+ http://www.portmeirion-village.com/
+http://www.caernarfon-castle.co.uk/attractions/item/1032/Portmeirion_Village_and_Gardens.html
+
