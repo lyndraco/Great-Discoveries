@@ -8,7 +8,6 @@ Mapping memory challenge: map of the UK
 
 ## Sites
  1. Big Pit National Coal Museum
- 
  2.
  
  3.
