@@ -1,4 +1,4 @@
- # UK
+  # UK
 Mapping memory challenge: map of the UK
 
 ## Technologies
@@ -9,7 +9,7 @@ Mapping memory challenge: map of the UK
 ## Sites
  1. Big Pit National Coal Museum
  
- 2.Craig-yr-unbeb (Union Rock)
+ 2. Craig-yr-unbeb (Union Rock)
  
  3. Llanberys (mining town)
  
@@ -42,4 +42,4 @@ Mapping memory challenge: map of the UK
  
  17. Bodnant Gardens
  
- 18 Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town)
+ 18, Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town)
