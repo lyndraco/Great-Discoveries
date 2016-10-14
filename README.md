@@ -32,14 +32,14 @@ Mapping memory challenge: map of the UK
  
  12. Port Dinorwyc (Anglecized version of Dinorwyg; aka Y Felinheli--literally called "The Mill" or called "The Mill on the River Helen")  
  
- 13. Vaynol Estate (Dinorwyg was owned by the Asshton-Smith family)
+ 13. Vaynol Estate (Dinorwyg was owned by the Asshton-Smith family): 53.201859, -4.191840
  
- 14. Penrhyn Castle (owners of the Penrhyn Quarry--built in the late 19th cent.)
- 
+ 14. Penrhyn Castle (owners of the Penrhyn Quarry--built in the late 19th cent.): 53.225759, -4.094692
+   https://www.nationaltrust.org.uk/penrhyn-castle
  15. Nant Lle Quarry (a slate quarry)
  
- 16. Trefriw Woolen Mills
- 
- 17. Bodnant Gardens
- 
- 18. Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town)
+ 16. Trefriw Woolen Mills: 53.151260, -3.824624
+    http://www.t-w-m.co.uk/
+ 17. Bodnant Gardens: 53.235047, -3.799055
+   https://www.nationaltrust.org.uk/bodnant-garden,  http://www.bodnantgarden.co.uk/
+ 18. Portmeirion Village and Gardens (built in the 1920s-ish to be a resort town): 52.913533, -4.098928
