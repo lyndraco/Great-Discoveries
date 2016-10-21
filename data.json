@@ -51,13 +51,13 @@
     {
         "name": "Festiniog",
         "alt": "Ffestiniog",
-        "description": "Anglecized--this is why there is a single 'f' and not Ffestiniog"
+        "description": "Anglecized--this is why there is a single 'f' and not Ffestiniog",
         "url": "http://www.festrail.co.uk/"
     },
     {
         "name": "Port Dinorwyc",
         "alt": "Dinorwyg",
-        "description": "Anglecized version of Dinorwyg; aka Y Felinheli--literally called 'The Mill' or called 'The Mill on the River Helen'"
+        "description": "Anglecized version of Dinorwyg; aka Y Felinheli--literally called 'The Mill' or called 'The Mill on the River Helen'",
         "url": "http://www.felinheli.org/eng/"
     },
     {
@@ -75,7 +75,7 @@
         "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
     },
     {
-        "name": "Nant Lle Quarry"
+        "name": "Nant Lle Quarry",
         "category": "slate quarry"
     },
     {
