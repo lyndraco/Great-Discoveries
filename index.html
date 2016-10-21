@@ -23,12 +23,7 @@
             <div id='map'></div>
             <script>
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  var map = L.mapbox.map({
-                        container: 'map',
-                        style: 'mapbox://styles/mapbox/light-v9',
-                        zoom: 7,
-                        center: [-3.184879, 51.487808]
-                  });
+                  var map = L.mapbox.map('map', 'mapbox://styles/mapbox/light-v9').setView([-3.184879, 51.487808], 5);
                   L.mapbox.featureLayer({
                         // this feature is in the GeoJSON format: see geojson.org
                         // for the full specification
