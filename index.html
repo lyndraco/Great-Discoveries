@@ -22,28 +22,34 @@
             </style>
             <div id='map'></div>
             <script>
+                  var places, map, xhr;
+
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  var map = L.mapbox.map('map', 'michaelnet.12df45f8').setView([51.487808, -3.184879], 5);
-                  var xhr = new XMLHttpRequest();
-                  xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
-                  var places = JSON.parse(xhr.responseText);
-                  for (var i = 0; i < places.length; i++ ) {
-                        var place = places[i];
-                        L.mapbox.featureLayer({
-                              type: 'Feature',
-                              geometry: {
-                                    type: 'Point',
-                                    coordinates: [place.longitude, place.latitude]
+                  map = L.mapbox.map('map', 'michaelnet.12df45f8').setView([51.487808, -3.184879], 5);
+                  xhr = new XMLHttpRequest();
+                  xhr.onreadystatechange = function() {
+                        places = JSON.parse(this.responseText);
+                        for (var i = 0; i < places.length; i++ ) {
+                              var place = places[i];
+                              console.log(place);
+                              L.mapbox.featureLayer({
+                                    type: 'Feature',
+                                    geometry: {
+                                          type: 'Point',
+                                          coordinates: [place.longitude, place.latitude]
                                     },
-                              properties: {
-                                    'title': place.name,
-                                    'description': place.description,
-                                    'marker-size': 'large',
-                                    'marker-color': '#BE9A6B',
-                                    'marker-symbol': place.type
+                                    properties: {
+                                          'title': place.name,
+                                          'description': "place.description will go here",
+                                          'marker-size': 'large',
+                                          'marker-color': '#BE9A6B',
+                                          'marker-symbol': 'bar'
+                                    }
+                              }).addTo(map);
                         }
-                        }).addTo(map);
-                  }
+                  };
+                  xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
+                  xhr.send();
 </script>
 </body>
 </html>
