@@ -81,12 +81,16 @@
     },
     {
         "name": "Penrhyn",
+        "latitude": 53.232973,
+        "longitude": -4.110179,
         "description": "use an aspirated 'h' and long 'y'; this is famous for one of the longest labor disputes--2yrs",
         "category": "slate quarry",
         "url": "http://www.snowdoniaheritage.info/en/location/361/penrhyn-quarry/"
     },
     {
         "name": "Blaenau Ffestiniog Gwynedd",
+        "latitude": 52.998346,
+        "longitude": -3.944913,
         "category": "mine",
         "url": "http://www.blaenauffestiniog.org/"
     },
