@@ -105,12 +105,16 @@
     {
         "name": "Festiniog",
         "alt": "Ffestiniog",
+        "latitude": 52.994605,
+        "longitude": -3.938312,
         "description": "Anglecized--this is why there is a single 'f' and not Ffestiniog",
         "url": "http://www.festrail.co.uk/"
     },
     {
         "name": "Port Dinorwyc",
         "alt": "Dinorwyg",
+        "latitude": 53.181240,
+        "longitude": -4.212620,
         "description": "Anglecized version of Dinorwyg; aka Y Felinheli--literally called 'The Mill' or called 'The Mill on the River Helen'",
         "url": "http://www.felinheli.org/eng/"
     },
