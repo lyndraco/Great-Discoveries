@@ -63,9 +63,13 @@
     },
     {
         "name": "Royal Cambrian Academy"
+        "latitude": 53.281471, 
+        "longitude": -3.830214
     },
     {
         "name": "Castell Caernarfon Castle",
+        "latitude": 53.139107,
+        "longitude": -4.276887,
         "description": "Welsh castle that was taken over--in 900s?-- by the English; the Castle Charles was crowned Prince of Wales"
     },
     {
