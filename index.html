@@ -24,29 +24,26 @@
             <script>
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
                   var map = L.mapbox.map('map', 'michaelnet.12df45f8').setView([51.487808, -3.184879], 5);
-                  L.mapbox.featureLayer({
-                        // this feature is in the GeoJSON format: see geojson.org
-                        // for the full specification
-                        type: 'Feature',
-                        geometry: {
-                              type: 'Point',
-                              // coordinates here are in longitude, latitude order because
-                              // x, y is the standard for GeoJSON and many formats
-                              coordinates: [
-                                    -3.10651,
-                                    51.772091 
-                              ]
-                        },
-                        properties: {
-                              title: 'A Point',
-                              description: 'Right Here',
-                              // one can customize markers by adding simplestyle properties
-                              // https://www.mapbox.com/guides/an-open-platform/#simplestyle
-                              'marker-size': 'large',
-                              'marker-color': '#BE9A6B',
-                              'marker-symbol': 'mountain'
+                  var xhr = new XMLHttpRequest();
+                  xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
+                  var places = JSON.parse(xhr.responseText);
+                  for (var i = 0; i < places.length; i++ ) {
+                        var place = places[i];
+                        L.mapbox.featureLayer({
+                              type: 'Feature',
+                              geometry: {
+                                    type: 'Point',
+                                    coordinates: [place.longitude, place.latitude]
+                                    },
+                              properties: {
+                                    'title': place.name,
+                                    'description': place.description,
+                                    'marker-size': 'large',
+                                    'marker-color': '#BE9A6B',
+                                    'marker-symbol': place.type
                         }
-                  }).addTo(map);
+                        }).addTo(map);
+                  }
 </script>
 </body>
 </html>
