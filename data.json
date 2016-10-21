@@ -5,8 +5,96 @@
         "longitude": -3.10651
     },
     {
-        "name": "place2",
-        "latitude": 51.772091,
-        "longitude": -3.10651
+        "name": "Craig-yr-unbeb",
+        "alt": "Union Rock"
+    },
+    {
+        "name": "Llanberys",
+        "url": "http://www.llechwedd-slate-caverns.co.uk/"
+    },
+    {
+        "name": "Caban",
+        "description": "former school--a restaurant and art community now",
+        "url": "http://caban-cyf.org/"
+    },
+    {
+        "name": "Royal Cambrian Academy",    
+    },
+    {
+        "name": "Castell Caernarfon Castle",
+        "description": "Welsh castle that was taken over--in 900s?-- by the English; the Castle Charles was crowned Prince of Wales"
+    },
+    {
+        "name": "Dinorwyg",
+        "alt": "Dinorwyc",
+        "description": "Anglicized spelling and pronunciation: Dinorwyc; slate quarry",
+        "url": "https://museum.wales/427/",
+        "category": "slate quarry"
+    },
+    {
+        "name": "Penrhyn",
+        "description": "use an aspirated 'h' and long 'y'; this is famous for one of the longest labor disputes--2yrs",
+        "category": "slate quarry",
+        "url": "http://www.snowdoniaheritage.info/en/location/361/penrhyn-quarry/"
+    },
+    {
+        "name": "Blaenau Ffestiniog Gwynedd",
+        "category": "mine",
+        "url": "http://www.blaenauffestiniog.org/"
+    },
+    {
+        "name": "Sygun Copper Mine",
+        "alt": "Beddgelert Gwyedd",
+        "description": "aka Beddgelert Gwyedd: Beddgelert is the twon name and Gwyedd is the county",
+        "url": "http://www.syguncoppermine.co.uk/"
+    },
+    {
+        "name": "Festiniog",
+        "alt": "Ffestiniog",
+        "description": "Anglecized--this is why there is a single 'f' and not Ffestiniog"
+        "url": "http://www.festrail.co.uk/"
+    },
+    {
+        "name": "Port Dinorwyc",
+        "alt": "Dinorwyg",
+        "description": "Anglecized version of Dinorwyg; aka Y Felinheli--literally called 'The Mill' or called 'The Mill on the River Helen'"
+        "url": "http://www.felinheli.org/eng/"
+    },
+    {
+        "name": "Vaynol Estate",
+        "alt": "Dinorwyg was owned by the Asshton-Smith family",
+        "latitude": 53.201859,
+        "longitude": -4.191840,
+        "url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
+    },
+    {
+        "name": "Penrhyn Castle",
+        "alt": "owners of the Penrhyn Quarry--built in the late 19th cent.",
+        "latitude": 53.225759,
+        "longitude": -4.094692,
+        "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
+    },
+    {
+        "name": "Nant Lle Quarry"
+        "category": "slate quarry"
+    },
+    {
+        "name": "Trefriw Woolen Mills",
+        "url": "http://www.t-w-m.co.uk/",
+        "latitude": 53.151260,
+        "longitude": -3.824624
+    },
+    {
+        "name": "Bodnant Gardens",
+        "latitude": 53.235047,
+        "longitude": -3.799055,
+        "url": "https://www.nationaltrust.org.uk/bodnant-garden"
+    },
+    {
+        "name": "Portmeirion Village and Gardens",
+        "description": "built in the 1920s-ish to be a resort town",
+        "latitude": 52.913533,
+        "longitude": -4.098928,
+        "url": "http://www.portmeirion-village.com/"
     }
 ]
