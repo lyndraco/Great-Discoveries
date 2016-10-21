@@ -97,6 +97,8 @@
     {
         "name": "Sygun Copper Mine",
         "alt": "Beddgelert Gwyedd",
+        "latitude": 53.018578,
+        "longitude": -4.081890,
         "description": "aka Beddgelert Gwyedd: Beddgelert is the twon name and Gwyedd is the county",
         "url": "http://www.syguncoppermine.co.uk/"
     },
