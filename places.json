@@ -5,6 +5,44 @@
         "longitude": -3.10651
     },
     {
+        "name": "Trefriw Woolen Mills",
+        "url": "http://www.t-w-m.co.uk/",
+        "latitude": 53.151260,
+        "longitude": -3.824624
+    },
+    {
+        "name": "Bodnant Gardens",
+        "latitude": 53.235047,
+        "longitude": -3.799055,
+        "url": "https://www.nationaltrust.org.uk/bodnant-garden"
+    },
+    {
+        "name": "Portmeirion Village and Gardens",
+        "description": "built in the 1920s-ish to be a resort town",
+        "latitude": 52.913533,
+        "longitude": -4.098928,
+        "url": "http://www.portmeirion-village.com/"
+    },
+    {
+        "name": "Snowdon Inn",
+        "latitude": 53.138267,
+        "longitude": -4.156118
+    },
+        {
+        "name": "Vaynol Estate",
+        "alt": "Dinorwyg was owned by the Asshton-Smith family",
+        "latitude": 53.201859,
+        "longitude": -4.191840,
+        "url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
+    },
+    {
+        "name": "Penrhyn Castle",
+        "alt": "owners of the Penrhyn Quarry--built in the late 19th cent.",
+        "latitude": 53.225759,
+        "longitude": -4.094692,
+        "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
+    },
+    {
         "name": "Craig-yr-unbeb",
         "alt": "Union Rock"
     },
@@ -61,45 +99,7 @@
         "url": "http://www.felinheli.org/eng/"
     },
     {
-        "name": "Vaynol Estate",
-        "alt": "Dinorwyg was owned by the Asshton-Smith family",
-        "latitude": 53.201859,
-        "longitude": -4.191840,
-        "url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
-    },
-    {
-        "name": "Penrhyn Castle",
-        "alt": "owners of the Penrhyn Quarry--built in the late 19th cent.",
-        "latitude": 53.225759,
-        "longitude": -4.094692,
-        "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
-    },
-    {
         "name": "Nant Lle Quarry",
         "category": "slate quarry"
-    },
-    {
-        "name": "Trefriw Woolen Mills",
-        "url": "http://www.t-w-m.co.uk/",
-        "latitude": 53.151260,
-        "longitude": -3.824624
-    },
-    {
-        "name": "Bodnant Gardens",
-        "latitude": 53.235047,
-        "longitude": -3.799055,
-        "url": "https://www.nationaltrust.org.uk/bodnant-garden"
-    },
-    {
-        "name": "Portmeirion Village and Gardens",
-        "description": "built in the 1920s-ish to be a resort town",
-        "latitude": 52.913533,
-        "longitude": -4.098928,
-        "url": "http://www.portmeirion-village.com/"
-    },
-    {
-        "name": "Snowdon Inn",
-        "latitude": 53.138267,
-        "longitude": -4.156118
     }
 ]
