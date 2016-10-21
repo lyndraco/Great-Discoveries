@@ -29,8 +29,6 @@
                         zoom: 7,
                         center: [-3.184879, 51.487808]
                   });
-                  var layerList = document.getElementById('menu');
-                  var inputs = layerList.getElementsByTagName('input');
                   function switchLayer(layer) {
                         var layerId = layer.target.id;
                         map.setStyle('mapbox://styles/mapbox/' + layerId + '-v9');
