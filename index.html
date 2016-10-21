@@ -29,13 +29,29 @@
                         zoom: 7,
                         center: [-3.184879, 51.487808]
                   });
-                  function switchLayer(layer) {
-                        var layerId = layer.target.id;
-                        map.setStyle('mapbox://styles/mapbox/' + layerId + '-v9');
-                  }
-                  for (var i = 0; i < inputs.length; i++) {
-                        inputs[i].onclick = switchLayer;
-                  }
+                  L.mapbox.featureLayer({
+                        // this feature is in the GeoJSON format: see geojson.org
+                        // for the full specification
+                        type: 'Feature',
+                        geometry: {
+                              type: 'Point',
+                              // coordinates here are in longitude, latitude order because
+                              // x, y is the standard for GeoJSON and many formats
+                              coordinates: [
+                                    -3.10651,
+                                    51.772091 
+                              ]
+                        },
+                        properties: {
+                              title: 'lol',
+                              description: 'wut',
+                              // one can customize markers by adding simplestyle properties
+                              // https://www.mapbox.com/guides/an-open-platform/#simplestyle
+                              'marker-size': 'large',
+                              'marker-color': '#BE9A6B',
+                              'marker-symbol': 'cafe'
+                        }
+                  }).addTo(map);
 </script>
 </body>
 </html>
