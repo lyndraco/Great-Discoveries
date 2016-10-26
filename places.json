@@ -22,7 +22,7 @@ e[
     },
     {
         "name": "Snowdon Inn",
-        "alt": "This current meeting location is located right next to Craig-yr-unbeb (Union Rock)",
+        "alt": "This current meeting location is located right next to Craig-yr-undeb (Union Rock)",
         "latitude": 53.138267,
         "longitude": -4.156118
     },
@@ -41,7 +41,7 @@ e[
         "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
     },
     {
-        "name": "Craig-yr-unbeb",
+        "name": "Craig-yr-undeb",
         "alt": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
         "latitude": 53.136813,
         "longitude": -4.152998
