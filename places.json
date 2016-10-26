@@ -1,45 +1,48 @@
-[
+e[
     {
         "name": "Trefriw Woolen Mills",
-        "url": "http://www.t-w-m.co.uk/",
+        "alt": "  ",
         "latitude": 53.151260,
         "longitude": -3.824624
+        "url": "http://www.t-w-m.co.uk/",
     },
     {
         "name": "Bodnant Gardens",
+        "alt": "  ",
         "latitude": 53.235047,
         "longitude": -3.799055,
         "url": "https://www.nationaltrust.org.uk/bodnant-garden"
     },
     {
         "name": "Portmeirion Village and Gardens",
-        "description": "built in the 1920s-ish to be a resort town",
+        "description": "This Italian style village was built in the 1920s to be a sea-side resort town. Clough Williams-Ellis was the owner and architect. It was not completed until the 1970s.",
         "latitude": 52.913533,
         "longitude": -4.098928,
         "url": "http://www.portmeirion-village.com/"
     },
     {
         "name": "Snowdon Inn",
+        "alt": "This current meeting location is located right next to Craig-yr-unbeb (Union Rock)",
         "latitude": 53.138267,
         "longitude": -4.156118
     },
         {
         "name": "Vaynol Estate",
-        "alt": "Dinorwyg was owned by the Asshton-Smith family",
+        "alt": "Assheton-Smith family, who owned Dinorwyg quarry, built this estate.",
         "latitude": 53.201859,
         "longitude": -4.191840,
         "url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
     },
     {
         "name": "Penrhyn Castle",
-        "alt": "owners of the Penrhyn Quarry--built in the late 19th cent.",
+        "alt": "The Penrhyn family owned of the Penrhyn Quarry. The estate was built in the late 19th century after the family took the wealth thay made from the slave trade and put it into the quarry.",
         "latitude": 53.225759,
         "longitude": -4.094692,
         "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
     },
     {
         "name": "Craig-yr-unbeb",
-        "alt": "Union Rock",
+        "alt": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
         "latitude": 53.136813,
         "longitude": -4.152998
     },
