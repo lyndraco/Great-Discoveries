@@ -23,7 +23,9 @@
             <div id='map'></div>
             <script>
                   var places, map, xhr;
-
+                  function concatMainAndAlt (main, alt) {
+                        
+                  }
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
                   map = L.mapbox.map('map', 'michaelnet.12df45f8').setView([51.487808, -3.184879], 5);
                   xhr = new XMLHttpRequest();
