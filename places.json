@@ -3,68 +3,78 @@
 	"description": "This is one of the few remaining mills in the area. It opened in the 1820s and has been owned by the same family since 1859.",
 	"latitude": 53.151260,
 	"longitude": -3.824624,
-	"url": "http://www.t-w-m.co.uk/",
-	"category": "labor"
+	"url": "http://www.t-w-m.co.uk/",	
+	"category": "labor",
 }, {
 	"name": "Bodnant Gardens",
 	"description": " Part of the Bodnant Estate, it is an 80-acre garden located above the Conwy River and is owned by the National Trust. Currently, it is a tourist site in conjunction to a restaurant that specializes in Welsh cuisine and the Hall (whic is still privately owned).",
 	"latitude": 53.235047,
 	"longitude": -3.799055,
-	"url": "https://www.nationaltrust.org.uk/bodnant-garden",
-	"category": "wealth"
-}, {
+	"url": "https://www.nationaltrust.org.uk/bodnant-garden".
+	"category": "wealth",
+ }, {
 	"name": "Portmeirion Village and Gardens",
 	"description": "This Italian style village was built in the 1920s to be a sea-side resort town. Clough Williams-Ellis was the owner and architect. His mother was the daughter of a Blaenau-Ffestiniog slate mine owner. It was not completed until the 1970s.",
 	"latitude": 52.913533,
 	"longitude": -4.098928,
 	"url": "http://www.portmeirion-village.com/",
-	"category": "wealth"
+	"category": "wealth",
 }, {
 	"name": "Snowdon Inn",
 	"description": "This current gathering spot and inn is located right next to Craig-yr-undeb (Union Rock)",
 	"latitude": 53.138267,
-	"longitude": -4.156118,
+	"longitude": -4.156118
 	"url": "http://www.thesnowdoninn.co.uk/",
-	"category": "community"
+	"category": "community",
 }, {
 	"name": "Vaynol Estate",
 	"description": "Assheton-Smith family, who owned Dinorwyg quarry, built this estate.",
 	"latitude": 53.201859,
 	"longitude": -4.191840,
-	"url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
+	"url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf",
+	"category": "wealth",
 }, {
 	"name": "Penrhyn Castle",
 	"description": "The Penrhyn family owned of the Penrhyn Quarry. The estate was built in the late 19th century after the family took the wealth thay made from the slave trade and put it into the quarry.",
 	"latitude": 53.225759,
 	"longitude": -4.094692,
-	"url": "https://www.nationaltrust.org.uk/penrhyn-castle"
+	"url": "https://www.nationaltrust.org.uk/penrhyn-castle", 
+	"category": "wealth",
 }, {
 	"name": "Craig-yr-undeb",
 	"description": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
 	"latitude": 53.136813,
 	"longitude": -4.152998,
-	"url": "http://historypoints.org/index.php?page=craig-yr-undeb-brynrefail"
+	"url": "http://historypoints.org/index.php?page=craig-yr-undeb-brynrefail",
+	"category": "labor",
 }, {
 	"name": "Llanberys",
 	"description": " A former slate quarry town, it is a tourist town for climbers and those riding the local, historic trains.",
 	"latitude": 53.004620,
 	"longitude": -3.940245,
-	"url": "http://www.llechwedd-slate-caverns.co.uk/"
+"	"url": "http://www.llechwedd-slate-caverns.co.uk/",
+	"category": "labor",
 }, {
 	"name": "Caban",
-	"description": " A former school house that has been converted into a an art and cultural center. It has a lovely restaurant with locally grown foods.",
+	"description": "A former school house that has been converted into a an art and cultural center. It has a lovely restaurant with locally grown foods.",
 	"latitude": 53.142359,
 	"longitude": -4.154067,
 	"url": "http://caban-cyf.org/"
+	"category": "community",
 }, {
-	"name": "Royal Cambrian Academy",
+	"name": "Royal Cambrian Academy of Art",
+	"description":"This is the home of the first artists colony in Britian and it attracted many artists to the community. In 1881, it was at its peak of fame and Queen Victoria officially created the Royal Cambrian Academy of Art based on it.",
 	"latitude": 53.281471,
-	"longitude": -3.830214
+	"longitude": -3.830214,
+	"url": "http://rcaconwy.org/",
+	"category": "community",
 }, {
-	"name": "Castell Caernarfon Castle",
+	"name": "Castell Caernarfon",
+	"description": "It is a medievel castle that was established in 1283 by King Edward I of England following his conquest of Gwynedd and it was one of a ring of castles built from local slate to maintain English rule in the area.",
 	"latitude": 53.139107,
 	"longitude": -4.276887,
-	"description": "Welsh castle that was taken over--in 900s?-- by the English; the Castle Charles was crowned Prince of Wales"
+	"url": "http://cadw.gov.wales/daysout/caernarfon-castle/?lang=en"
+
 }, {
 	"name": "Dinorwyg",
 	"alt": "Dinorwyc",
