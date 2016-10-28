@@ -79,7 +79,7 @@
                         var feature = marker.feature;
                         marker.setIcon(L.icon(feature.properties.icon));
                   });
-                  myLayer.setGeoJSON(thisPlaceGeoJSON, { 
+                  myLayer.setGeoJSON(thesePlacesGeoJSON, { 
                                     onEachFeature: onEachFeature 
                               }).addTo(map);
                   setTimeout(function() {
