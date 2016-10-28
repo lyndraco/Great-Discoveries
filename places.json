@@ -4,27 +4,27 @@
 	"latitude": 53.151260,
 	"longitude": -3.824624,
 	"url": "http://www.t-w-m.co.uk/",
-	"category": "labor",
+	"category": "labor"
 }, {
 	"name": "Bodnant Gardens",
 	"description": " Part of the Bodnant Estate, it is an 80-acre garden located above the Conwy River and is owned by the National Trust. Currently, it is a tourist site in conjunction to a restaurant that specializes in Welsh cuisine and the Hall (whic is still privately owned).",
 	"latitude": 53.235047,
 	"longitude": -3.799055,
-	"url": "https://www.nationaltrust.org.uk/bodnant-garden".
-	"category": "wealth",
+	"url": "https://www.nationaltrust.org.uk/bodnant-garden",
+	"category": "wealth"
 }, {
 	"name": "Portmeirion Village and Gardens",
 	"description": "This Italian style village was built in the 1920s to be a sea-side resort town. Clough Williams-Ellis was the owner and architect. His mother was the daughter of a Blaenau-Ffestiniog slate mine owner. It was not completed until the 1970s.",
 	"latitude": 52.913533,
 	"longitude": -4.098928,
 	"url": "http://www.portmeirion-village.com/",
-	"category": "wealth",
+	"category": "wealth"
 }, {
 	"name": "Snowdon Inn",
 	"description": "This current gathering spot and inn is located right next to Craig-yr-undeb (Union Rock)",
 	"latitude": 53.138267,
-	"longitude": -4.156118
-	"url": "http://www.thesnowdoninn.co.uk/"
+	"longitude": -4.156118,
+	"url": "http://www.thesnowdoninn.co.uk/",
 	"category": "community"
 }, {
 	"name": "Vaynol Estate",
