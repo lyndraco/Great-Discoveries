@@ -69,7 +69,7 @@
 	"name": "Castell Caernarfon",
 	"description": "It is a medievel castle that was established in 1283 by King Edward I of England following his conquest of Gwynedd and it was one of a ring of castles built from local slate to maintain English rule in the area.",
 	"latitude": 53.139107,
-	"longitude": -4.276887,
+,	"longitude": -4.276887,
 	"url": "http://cadw.gov.wales/daysout/caernarfon-castle/?lang=en", 
 	"category": "community"
 }, {
@@ -96,18 +96,18 @@
   	"category": "labor"
 }, {
 	"name": "Sygun Copper Mine",
-	"alt": "Beddgelert Gwyedd",
 	"latitude": 53.018578,
 	"longitude": -4.081890,
-	"description": "aka Beddgelert Gwyedd: Beddgelert is the twon name and Gwyedd is the county",
-	"url": "http://www.syguncoppermine.co.uk/"
+	"description": "Unlike the other local mines, this one was not for slate but copper. It closed in 1903 and reopened in 1986 as a tourist attraction that includes a museum and art gallery.",
+	"url": "http://www.syguncoppermine.co.uk/",
+	"category": "labor"
 }, {
-	"name": "Festiniog",
-	"alt": "Ffestiniog",
+	"name": "Ffestiniog",
+	"description": "This town is famous for its railways that were the old quarry railways.",
 	"latitude": 52.994605,
 	"longitude": -3.938312,
-	"description": "Anglecized--this is why there is a single 'f' and not Ffestiniog",
-	"url": "http://www.festrail.co.uk/"
+	"url": "http://www.festrail.co.uk/",
+	"category": "labor"
 }, {
 	"name": "Port Dinorwyc",
 	"alt": "Dinorwyg",
