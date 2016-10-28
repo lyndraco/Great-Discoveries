@@ -43,6 +43,7 @@
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
                   var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
+                  var myLayer = L.mapbox.featureLayer().addTo(map);
                   var xhr = new XMLHttpRequest();
                   xhr.onreadystatechange = function() {
                         var places = JSON.parse(this.responseText);
@@ -68,7 +69,7 @@
                                           popupContent: place.description
                                     }
                               }
-                              L.geoJSON(thisPlaceGeoJSON, { 
+                              myLayer.geoJSON(thisPlaceGeoJSON, { 
                                     onEachFeature: onEachFeature 
                               }).addTo(map);
                               thesePlacesGeoJSON.push(thisPlaceGeoJSON);
@@ -76,7 +77,6 @@
                   };
                   xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
                   xhr.send();
-                  var myLayer = L.mapbox.featureLayer().addTo(map);
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
