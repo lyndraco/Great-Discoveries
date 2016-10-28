@@ -109,15 +109,19 @@
 	"url": "http://www.festrail.co.uk/",
 	"category": "labor"
 }, {
-	"name": "Port Dinorwyc",
-	"alt": "Dinorwyg",
+	"name": "Y Felinheli",
+	"alt:"Anglicized as Port Dinorwic",
+	"description": "It was the port that transported the slate from the Dinorwyg mines to other parts of the U.K. and overseas.",
+	"url": "http://www.felinheli.org/eng/",
 	"latitude": 53.181240,
 	"longitude": -4.212620,
-	"description": "Anglecized version of Dinorwyg; aka Y Felinheli--literally called 'The Mill' or called 'The Mill on the River Helen'",
-	"url": "http://www.felinheli.org/eng/"
+	"url": "http://www.felinheli.org/eng/",
+	"category": "labor"
 }, {
 	"name": "Nant Lle Quarry",
-	"category": "slate quarry",
+	"description": "It was a major slate quarry for the area.The slate from this quarry was sent out through the Caernarfon harbor.", 
 	"latitude": 53.057526,
-	"longitude": -4.222792
+	"longitude": -4.222792,
+	"url": "http://www.nantlle.com/history-nantlle.htm",
+	"category": "labor"
 }]
