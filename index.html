@@ -173,7 +173,6 @@
                   var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
                   var myLayer = L.mapbox.featureLayer().addTo(map);
-                  var placesParsed = JSON.parse(places);
                   for (var i = 0; i < places.length; i++ ) {
                               var place = places[i];
                               thisPlaceGeoJSON = {
