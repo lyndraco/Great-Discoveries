@@ -83,6 +83,13 @@
                   };
                   xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
                   xhr.send();
+                  var myLayer = L.mapbox.featureLayer().addTo(map);
+                  myLayer.on('layeradd', function(e) {
+                        var marker = e.layer,
+                            feature = marker.feature;
+                        marker.setIcon(L.icon(feature.properties.icon));
+                  });
+                  myLayer.setGeoJSON(thesePlacesGeoJSON);
 </script>
 </body>
 </html>
