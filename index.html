@@ -20,8 +20,41 @@
                         font-family: 'Open Sans', sans-serif;
                   }
             </style>
+	      <nav id="menu"></nav>
             <div id='map'></div>
             <script>
+		    L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
+                  var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
+                  L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
+                  var myLayer = L.mapbox.featureLayer().addTo(map);
+		    var toggleableLayerIds = [ 'community', 'wealth', 'labor' ];
+		    for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
                   var places = [{
 	"name": "Trefriw Woolen Mills",
 	"description": "This is one of the few remaining mills in the area. It opened in the 1820s and has been owned by the same family since 1859.",
@@ -169,10 +202,6 @@
                               layer.bindPopup(feature.properties.popupContent); 
                         } 
                   };
-                  L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
-                  L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
-                  var myLayer = L.mapbox.featureLayer().addTo(map);
                   for (var i = 0; i < places.length; i++ ) {
                               var place = places[i];
                               thisPlaceGeoJSON = {
