@@ -69,9 +69,6 @@
                                           popupContent: place.description
                                     }
                               }
-                              myLayer.geoJSON(thisPlaceGeoJSON, { 
-                                    onEachFeature: onEachFeature 
-                              }).addTo(map);
                               thesePlacesGeoJSON.push(thisPlaceGeoJSON);
                         }
                   };
@@ -82,6 +79,9 @@
                         var feature = marker.feature;
                         marker.setIcon(L.icon(feature.properties.icon));
                   });
+                  myLayer.setGeoJSON(thisPlaceGeoJSON, { 
+                                    onEachFeature: onEachFeature 
+                              }).addTo(map);
                   setTimeout(function() {
                         myLayer.setGeoJSON(thesePlacesGeoJSON);
                   }, 500)
