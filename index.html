@@ -176,8 +176,6 @@
                   for (var i = 0; i < places.length; i++ ) {
                               var place = places[i];
                               thisPlaceGeoJSON = {
-                                    title: place.name,
-                                    description: place.description,
                                     type: 'Feature',
                                     geometry: {
                                           type: 'Point',
@@ -187,9 +185,11 @@
                                           ]
                                     },
                                     properties: {
-                                          icon: {
-                                                iconUrl: getIconFromCategory(place.category),
-                                                iconSize: [50, 50],
+					    title: place.name,
+					    description: place.description,
+					    icon: {
+						    iconUrl: getIconFromCategory(place.category),
+						    iconSize: [50, 50],
                                                 iconAnchor: [25, 25],
                                                 popupAnchor: [0, -25],
                                                 className: 'place'
