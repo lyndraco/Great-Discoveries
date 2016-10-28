@@ -68,7 +68,7 @@
                                           popupContent: place.description
                                     }
                               }
-                              L.geoJSON(geojsonFeature, { 
+                              L.geoJSON(thisPlaceGeoJSON, { 
                                     onEachFeature: onEachFeature 
                               }).addTo(map);
                               thesePlacesGeoJSON.push(thisPlaceGeoJSON);
