@@ -30,8 +30,7 @@
 	"name": "Vaynol Estate",
 	"description": "Assheton-Smith family, who owned Dinorwyg quarry, built this estate.",
 	"latitude": 53.201859,
-	"longitude": -4.191840,	"url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf",
-	"category": "wealth"
+	"longitude": -4.191840,	"url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf",	"category": "wealth"
 }, {
 	"name": "Penrhyn Castle",
 	"description": "The Penrhyn family owned of the Penrhyn Quarry. The estate was built in the late 19th century after the family took the wealth thay made from the slave trade and put it into the quarry.",
@@ -41,8 +40,7 @@
 	"category": "wealth"
 }, {
 	"name": "Craig-yr-undeb",	
-	"description": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
-	"latitude": 53.136813,
+	"description": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",	"latitude": 53.136813,
 	"longitude": -4.152998,
 	"url": "http://historypoints.org/index.php?page=craig-yr-undeb-brynrefail",
 	"category": "labor"
@@ -84,17 +82,18 @@
 	"category": "labor"
 }, {
 	"name": "Penrhyn",
+	"description": "This is the quarry that had the longest labor dispute. It lasted for 3 years: from 1900-1903.",
 	"latitude": 53.232973,
 	"longitude": -4.110179,
-	"description": "use an aspirated 'h' and long 'y'; this is famous for one of the longest labor disputes--2yrs",
-	"category": "slate quarry",
-	"url": "http://www.snowdoniaheritage.info/en/location/361/penrhyn-quarry/"
+	"url": "http://www.snowdoniaheritage.info/en/location/361/penrhyn-quarry/",
+	"category": "labor"
 }, {
-	"name": "Blaenau Ffestiniog Gwynedd",
+	"name": "Blaenau Ffestiniog",
+	"description": "It was one of the major slate mines from the region. It is now a tourist site.",
 	"latitude": 52.998346,
 	"longitude": -3.944913,
-	"category": "mine",
-	"url": "http://www.blaenauffestiniog.org/"
+	"url": "http://www.blaenauffestiniog.org/",
+  	"category": "labor"
 }, {
 	"name": "Sygun Copper Mine",
 	"alt": "Beddgelert Gwyedd",
