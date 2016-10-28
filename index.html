@@ -27,8 +27,8 @@
                         
                   }
                   L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map)
                   map = L.mapbox.map('map').setView([51.487808, -3.184879], 5);
+                  L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
                   xhr = new XMLHttpRequest();
                   xhr.onreadystatechange = function() {
                         places = JSON.parse(this.responseText);
