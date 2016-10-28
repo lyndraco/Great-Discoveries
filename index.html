@@ -23,6 +23,15 @@
             <div id='map'></div>
             <script>
                   var places, map, xhr;
+                  function getIconFromCategory (categoryString) {
+                        switch (categoryString) {
+                              case 'slate quarry':
+                                    return 'industry'
+                              case 'mine':
+                                    return 'mountain'
+                              default:
+                                    return 'bar'
+                        }
                   function concatMainAndAlt (main, alt) {
                         
                   }
@@ -46,7 +55,7 @@
                                           'description': place.description,
                                           'marker-size': 'large',
                                           'marker-color': '#BE9A6B',
-                                          'marker-symbol': 'bar'
+                                          'marker-symbol': getIconFromCategory(place.category)
                                     }
                               }).addTo(map);
                         }
