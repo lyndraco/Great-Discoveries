@@ -50,6 +50,8 @@
                         for (var i = 0; i < places.length; i++ ) {
                               var place = places[i];
                               thisPlaceGeoJSON = {
+                                    title: place.name,
+                                    description: place.description,
                                     type: 'Feature',
                                     geometry: {
                                           type: 'Point',
