@@ -91,7 +91,9 @@
                             feature = marker.feature;
                         marker.setIcon(L.icon(feature.properties.icon));
                   });
-                  myLayer.setGeoJSON(thesePlacesGeoJSON);
+                  document.addEventListener("DOMContentLoaded", function() {
+                        myLayer.setGeoJSON(thesePlacesGeoJSON);
+                  });
 </script>
 </body>
 </html>
