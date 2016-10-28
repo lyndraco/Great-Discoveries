@@ -1,14 +1,15 @@
+
 e[
     {
         "name": "Trefriw Woolen Mills",
-        "alt": "  ",
+        "description": "  ",
         "latitude": 53.151260,
         "longitude": -3.824624
         "url": "http://www.t-w-m.co.uk/",
     },
     {
         "name": "Bodnant Gardens",
-        "alt": "  ",
+        "description": "  ",
         "latitude": 53.235047,
         "longitude": -3.799055,
         "url": "https://www.nationaltrust.org.uk/bodnant-garden"
@@ -22,41 +23,43 @@ e[
     },
     {
         "name": "Snowdon Inn",
-        "alt": "This current meeting location is located right next to Craig-yr-undeb (Union Rock)",
+        "description": "This current meeting location is located right next to Craig-yr-undeb (Union Rock)",
         "latitude": 53.138267,
         "longitude": -4.156118
     },
         {
         "name": "Vaynol Estate",
-        "alt": "Assheton-Smith family, who owned Dinorwyg quarry, built this estate.",
+        "description": "Assheton-Smith family, who owned Dinorwyg quarry, built this estate.",
         "latitude": 53.201859,
         "longitude": -4.191840,
         "url": "http://www.jaggers-heritage.com/resources/Section%2019.pdf"
     },
     {
         "name": "Penrhyn Castle",
-        "alt": "The Penrhyn family owned of the Penrhyn Quarry. The estate was built in the late 19th century after the family took the wealth thay made from the slave trade and put it into the quarry.",
+        "description": "The Penrhyn family owned of the Penrhyn Quarry. The estate was built in the late 19th century after the family took the wealth thay made from the slave trade and put it into the quarry.",
         "latitude": 53.225759,
         "longitude": -4.094692,
         "url": "https://www.nationaltrust.org.uk/penrhyn-castle"
     },
     {
         "name": "Craig-yr-undeb",
-        "alt": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
+        "description": "Union Rock: this is the meeting location for the workers in Llanberys quarry to form the union; it wasn't safe to meet in the quarry, so they meet at this rock.",
         "latitude": 53.136813,
         "longitude": -4.152998
+        "url": "http://historypoints.org/index.php?page=craig-yr-undeb-brynrefail"
     },
     {
         "name": "Llanberys",
+        "description": " A former slate quarry town, it is a tourist town for climbers and those riding the local, historic trains."  
         "latitude": 53.004620,
         "longitude": -3.940245,
         "url": "http://www.llechwedd-slate-caverns.co.uk/"
     },
     {
         "name": "Caban",
+        "description": " A former school house that has been converted into a an art and cultural center. It has a lovely restaurant with locally grown foods." 
         "latitude": 53.142359,
         "longitude": -4.154067,
-        "description": "former school--a restaurant and art community now",
         "url": "http://caban-cyf.org/"
     },
     {
