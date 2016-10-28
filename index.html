@@ -13,6 +13,15 @@
 </head>
       <body>
             <style>
+		    .labor {
+		    	color: #FF5516
+		    }
+		    .wealth {
+		    	color: #10BB6D
+		    }
+		    .community {
+		    	color: #1971B0
+		    }
                   #menu {
                         position: absolute; 
                         background: #fff;
@@ -64,6 +73,9 @@
 	      <nav id="menu"></nav>
             <div id='map'></div>
             <script>
+		    function classifyCategories(categoryString) {
+			    return '.' + categoryString;
+		    }
 		    L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
                   var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
@@ -263,7 +275,7 @@
 						    iconSize: [50, 50],
                                                 iconAnchor: [25, 25],
                                                 popupAnchor: [0, -25],
-                                                className: 'place'
+                                                className: classifyCategories(place.category)
                                           },
                                           popupContent: place.description
                                     }
