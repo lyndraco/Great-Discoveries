@@ -14,13 +14,13 @@
 </head>
       <body>
             <style>
-		    #labor-button {
+		    #ritual-button {
 		    	background: #FF5516
 		    }
-		    #wealth-button {
+		    #settlement-button {
 		    	background: #10BB6D
 		    }
-		    #community-button {
+		    #architecture-button {
 		    	background: #1971B0
 		    }
                   #menu {
@@ -75,20 +75,20 @@
                   var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
                   var myLayer = L.mapbox.featureLayer().addTo(map);
-		    var toggleableLayerIds = [ 'community', 'wealth', 'labor' ];
+		    var toggleableLayerIds = [ 'architecture', 'settlement', 'ritual' ];
 		    for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
     var link = document.createElement('a');
     link.href = '#';
-			    if (id === 'wealth') {
-				    link.id = 'wealth-button';
+			    if (id === 'settlement') {
+				    link.id = 'settlement-button';
 			    }
-			    else if (id === 'community') {
-				    link.id = 'community-button';
+			    else if (id === 'architecture') {
+				    link.id = 'architecture-button';
 			    }
 			    else {
-				    link.id = 'labor-button';
+				    link.id = 'ritual-button';
 			    }
     link.className = 'active';
     link.textContent = id;
@@ -117,19 +117,19 @@
 	"description": "Ancient town in China",
 	"latitude": 37.2426,
 	"longitude": 111.8569,
-	"category": "labor"
+	"category": "settlement"
 }, {
 	"name": "Turpan",
 	"description": "Ancient site in China",
 	"latitude": 42.9477,
 	"longitude": 89.1789,
-	"category": "wealth"
+	"category": "settlement"
 }, {
 	"name": "Xi'an",
 	"description": "Home of the terra cotta soldiers",
 	"latitude": 34.3416,
 	"longitude": 108.9398,
-	"category": "wealth"
+	"category": "ritual"
 }, {
 	"name": "Ajanta Caves",
 	"description": "Caves in India",
@@ -159,13 +159,13 @@
 	"description": "Ireland",
 	"latitude": 53.004620,
 	"longitude": -3.940245,
-	"category": "labor"
+	"category": "ritual"
 }, {
 	"name": "Oseberg",
 	"description": "Viking burial site",
 	"latitude": 53.142359,
 	"longitude": -4.154067,
-	"category": "community"
+	"category": "ritual"
 }, {
 	"name": "Star Carr",
 	"description": "Antler hats",
@@ -177,7 +177,7 @@
 	"description": "viking stuff",
 	"latitude": 53.139107,
 	"longitude": -4.276887,
-	"category": "Ritual"
+	"category": "ritual"
 }, {
 	"name": "Skuldelev",
 	"alt": " Anglicized as Dinorwyc",
@@ -221,7 +221,7 @@
 	"latitude": 53.057526,
 	"longitude": -4.222792,
 	"url": "http://www.nantlle.com/history-nantlle.htm",
-	"category": "labor"
+	"category": "settlement"
 }, {
 	"name": "Lehner Mammoth-Kill Site",
 	"description": "early big game hunting",
@@ -268,12 +268,12 @@
                   var thesePlacesGeoJSON = [];
                   function getIconFromCategory (categoryString) {
                         switch (categoryString) {
-                              case 'wealth':
-                                    return '/UK/bank-15.svg'
-                              case 'community':
-                                    return '/UK/town-hall-15.svg'
-                              case 'labor':
-                                    return '/UK/industry-15.svg'
+                              case 'settlement':
+                                    return '/Great-Discoveries/settlement.svg'
+                              case 'architecture':
+                                    return '/Great-Discoveries/architecture.svg'
+                              case 'ritual':
+                                    return '/Great-Discoveries/ritual.svg'
                               default:
                                     return 'bar'
                         }
