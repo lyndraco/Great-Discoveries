@@ -1,8 +1,6 @@
 
-http://www.portmeirion-village.com/
-http://www.caernarfon-castle.co.uk/attractions/item/1032/Portmeirion_Village_and_Gardens.html
-# UK
-Mapping memory challenge: map of the UK
+# Great Discoveries
+Great Discoveries in Archaeology
 
 ## Technologies
  * Leaflet.js for map interactivity
