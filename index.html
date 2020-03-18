@@ -81,17 +81,17 @@
 
     var link = document.createElement('a');
     link.href = '#';
-			    if (category === 'settlement') {
+			    if (id === 'settlement') {
 				    link.id = 'settlement-button';
 			    }
-			    else if (category === 'architecture') {
+			    else if (id === 'architecture') {
 				    link.id = 'architecture-button';
 			    }
 			    else {
 				    link.id = 'ritual-button';
 			    }
     link.className = 'active';
-    link.textContent = category;
+    link.textContent = id;
 
     link.onclick = function (e) {
         var clickedLayer = this.textContent;
