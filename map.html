@@ -2,28 +2,25 @@
 <html>
 <head>
       <meta charset='utf-8' />
-      <title>Great Discoveries in Archaeology </title>
+      <title>Great Discoveries in Archaeology</title>
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
       <script src='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
       <link href='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
       <style>
-            body { margin:2; padding:1; }
+            body { margin:0; padding:0; }
             #map { position:absolute; top:0; bottom:0; width:100%; }
 	      .leaflet-popup-content-wrapper {background-color: #f7f1ef; border: dashed; opacity=25} 
       </style>
-
-	</head>
+</head>
       <body>
-
-	      <div class="container">
             <style>
-		    #ritual-button {
+		    #labor-button {
 		    	background: #FF5516
 		    }
-		    #settlement-button {
+		    #wealth-button {
 		    	background: #10BB6D
 		    }
-		    #architecture-button {
+		    #community-button {
 		    	background: #1971B0
 		    }
                   #menu {
@@ -75,23 +72,23 @@
 			    return categoryString;
 		    }
 		    L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  var map = L.mapbox.map('map').setView([26.824071, -24.785156], 3);
+                  var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
                   var myLayer = L.mapbox.featureLayer().addTo(map);
-		    var toggleableLayerIds = [ 'architecture', 'settlement', 'ritual' ];
+		    var toggleableLayerIds = [ 'community', 'wealth', 'labor' ];
 		    for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
     var link = document.createElement('a');
     link.href = '#';
-			    if (id === 'settlement') {
-				    link.id = 'settlement-button';
+			    if (id === 'wealth') {
+				    link.id = 'wealth-button';
 			    }
-			    else if (id === 'architecture') {
-				    link.id = 'architecture-button';
+			    else if (id === 'community') {
+				    link.id = 'community-button';
 			    }
 			    else {
-				    link.id = 'ritual-button';
+				    link.id = 'labor-button';
 			    }
     link.className = 'active';
     link.textContent = id;
@@ -219,11 +216,10 @@
 	"category": "architecture"
 }, {
 	"name": "Crow Canyon",
-	"description": "Crow Canyon is an archaeological site located roughly 30 miles outside of Farmington, New Mexico. The site is viewed by modern day archaeologists as some of the best and most extensive examples of rock art in the American southwest.
-",
+	"description": "Crow Canyon is an archaeological site located roughly 30 miles outside of Farmington, New Mexico. The site is viewed by modern day archaeologists as some of the best and most extensive examples of rock art in the American southwest.",
 	"latitude": 37.3544,
 	"longitude": 108.6204,
-	"url": "http://www.nantlle.com/history-nantlle.htm",
+	"url": "https://mediaspace.msu.edu/media/Test+recording/1_u6dk0xrv",
 	"category": "labor"
 }, {
 	"name": "Lehner Mammoth-Kill Site",
@@ -295,12 +291,12 @@
                   var thesePlacesGeoJSON = [];
                   function getIconFromCategory (categoryString) {
                         switch (categoryString) {
-                              case 'settlement':
-                                    return '/Great-Discoveries/settlement.svg'
-                              case 'architecture':
-                                    return '/Great-Discoveries/architecture.svg'
-                              case 'ritual':
-                                    return '/Great-Discoveries/ritual.svg'
+                              case 'wealth':
+                                    return '/UK/bank-15.svg'
+                              case 'community':
+                                    return '/UK/town-hall-15.svg'
+                              case 'labor':
+                                    return '/UK/industry-15.svg'
                               default:
                                     return 'bar'
                         }
@@ -367,12 +363,12 @@
 //                               thesePlacesGeoJSON.push(thisPlaceGeoJSON);
 //                         }
 //                   };
-//                   xhr.open("GET", "https://mappingmemory.github.io/UK/places.json");
+//                   xhr.open("GET", "https://lyndraco.github.io/Great-Discoveries/places.json");
 //                   xhr.send();
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-                        var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> Watch a short video on this site: <a href="' + feature.properties.href + '">here.</a>';
+                        var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p>For a short presentation on the site, visit <a href="' + feature.properties.href + '">here.</a>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
@@ -384,9 +380,5 @@
                         myLayer.setGeoJSON(thesePlacesGeoJSON);
                   }, 500)
 </script>
-	      </div>
-     
-	
 </body>
-
 </html>
