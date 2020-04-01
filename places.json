@@ -85,92 +85,93 @@
 }, {
 	"name": "L'Anse aux Meadows",
 	"description": "L’Anse aux Meadows is an archaeological site on the great northern peninsula of the Island of Newfoundland, and the only known Norse settlement in North America. It is important as it represents the extent that the Norsemen traveled in the 8th century AD, as well as some of the first European exploration in the New World.",
-	"latitude": 53.018578,
-	"longitude": -4.081890,
+	"latitude": 51.5964,
+	"longitude": 55.5334,
 	"category": "settlement"
 }, {
 	"name": "Cakokia Mounds",
 	"description": "Cahokia mounds, in southwestern Illinois, is the site of the largest Mississippian society settled between 11th and 13th centuries AD. The monumental architecture seen at the site is the largest north of Mexico.",
-	"latitude": 52.994605,
-	"longitude": -3.938312,
+	"latitude": 38.6551,
+	"longitude": 90.0618,
 	"category": "architecture"
 }, {
 	"name": "Casa Grande",
 	"description": "These Hohokam people that lived at Casa Grande displayed incredible agricultural innovations, which led to surpluses in resources that they used to trade with people across the southwest.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 32.9110,
+	"longitude": 111.7734,
 	"category": "architecture"
 }, {
 	"name": "Crow Canyon",
-	"description": "Awesome site in early america",
-	"latitude": 53.057526,
-	"longitude": -4.222792,
+	"description": "Crow Canyon is an archaeological site located roughly 30 miles outside of Farmington, New Mexico. The site is viewed by modern day archaeologists as some of the best and most extensive examples of rock art in the American southwest.
+",
+	"latitude": 37.3544,
+	"longitude": 108.6204,
 	"url": "http://www.nantlle.com/history-nantlle.htm",
 	"category": "labor"
 }, {
 	"name": "Lehner Mammoth-Kill Site",
 	"description": "The Lehner Mammoth Kill Site is located in Southern Arizona in the United States. Over the years of excavation evidence was found of nine sets of mammoth bones, leading to the conclusion that the area was considered a kill site that early hunters used to trap and kill their prey.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 31.4217,
+	"longitude": 110.1148,
 	"category": "architecture"
 }, {
 	"name": "Pueblo Grande",
 	"description": "Pueblo Grande is a massive city of the Hohokam people, with a platform mound, irrigation system, and even ball courts.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 33.4457,
+	"longitude": 111.9847,
 	"category": "architecture"
 }, {
 	"name": "Calakmul",
 	"description": "Located in Mexico’s Campeche jungles, Calakmul was the site of one of the largest Mayan cities, with a population of over 50,000 people.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 18.5037,
+	"longitude": 89.3956,
 	"category": "architecture"
 }, {
 	"name": "Tenochtitlan",
 	"description": "Tenochtitlan is an archeological site located in modern day Mexico City. Founded in 1325, it was the capital of the Aztec empire.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 19.4326,
+	"longitude": 99.1332,
 	"category": "architecture"
 }, {
 	"name": "Chichen Itza",
 	"description": "Chichen Itza was founded by the Mayan people in Mexico, and represents an extraordinary architectural feat.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 20.6843,
+	"longitude": 88.5678,
 	"category": "architecture"	
 }, {
 	"name": "Chan Chan",
 	"description": "The Chan Chan archeological zone is a massive settlement of the Chimu civilization located near the Pacific coast of modern day Peru. The most famous aspect of the site is it's intricately carved walls, or reliefs. The images adorning these adobe reliefs can be anything from pelicans, to lobsters, to sea otters",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 8.1056,
+	"longitude": 79.0746,
 	"category": "architecture"
 }, {
 	"name": "Nazca Lines",
 	"description": "cool lines in Peru",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 14.8359,
+	"longitude": 74.9328,
 	"category": "architecture"
 }, {
 	"name": "Alexandria",
 	"description": "Alexandria is a well known city with a great and unique history, but most people tend to think about the city above sea level. If you dive below the Mediterranean, there is a whole other city that waits to be seen.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 38.8048,
+	"longitude": 77.0469,
 	"category": "settlement"
 }, {
 	"name": "Great Pyramids",
 	"description": "Many people have heard about the pyramids of Egypt, but most do not know the fascinating history behind them. For close to 4,000 years, the Pyramid of Giza was the tallest man made structure in the world.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 26.8206,
+	"longitude": 30.8025,
 	"category": "architecture"
 }, {
 	"name": "Giza Plateau",
 	"description": "Discoveries at the Giza Plateau have given us great insight into the culture and history of Ancient Egypt. They have helped to explain one of the earth’s biggest mysteries and most impressive monument.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 29.9769,
+	"longitude": 31.1327,
 	"category": "architecture"
 }, {
 	"name": "Valley of the Kings",
 	"description": "The Valley of the Kings is the collection of the public tombs of pharaohs, queens, high priests, and certain elites that lived during the New Kingdom. It gave us a greater understanding of the kings during this time period, how much they valued their religion, what day to day life was like for them, what type of gods they praised, and how they prepared their deceased for the afterlife. It showed how skilled the Egyptians were, with everything from the extraordinary statues of the pharaohs outside the tombs to the gilded treasures found inside of them.",
-	"latitude": 53.181240,
-	"longitude": -4.212620,
+	"latitude": 25.7402,
+	"longitude": 32.6014,
 	"category": "architecture"
 }]
