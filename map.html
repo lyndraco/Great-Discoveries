@@ -3,7 +3,7 @@
 <head>
       <meta charset='utf-8' />
       <title>Great Discoveries in Archaeology</title>
-      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <meta name='viewport' content='initial-scale=3,maximum-scale=1,user-scalable=no' />
       <script src='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
       <link href='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
       <style>
@@ -72,7 +72,7 @@
 			    return categoryString;
 		    }
 		    L.mapbox.accessToken = 'pk.eyJ1IjoibWljaGFlbG5ldCIsImEiOiItbWFqc3BvIn0.iuqIsFSNd5Ut-5_1W4RR_g';
-                  var map = L.mapbox.map('map').setView([53.105160, -4.006747], 9);
+                  var map = L.mapbox.map('map').setView([40.866667, 34.56667], 9);
                   L.mapbox.styleLayer('mapbox://styles/michaelnet/ciutulpjz00152ipqoggp1xrl').addTo(map);
                   var myLayer = L.mapbox.featureLayer().addTo(map);
 		    var toggleableLayerIds = [ 'community', 'wealth', 'labor' ];
