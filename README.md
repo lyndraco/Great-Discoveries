@@ -1,8 +1,7 @@
-# wanuskewin-project - WanuskewInteractive Mobile Application Project Pitch Website 
-* CHI Fellowship Fall 2016
-* Team Members: RAMYA SWAYAMPRAKASH, JESSICA YANN, ERIN PEVAN
-* Copyright 2016
-* https://eriukristene.github.io/wanuskewin-project/index.html
+Great Discoveries in Archaeology
+* ANP 264 Class Project, Spring 2020
+* Dr. Jessica Yann
+* Copyright 2020
 
 
 Start of Original README.md
