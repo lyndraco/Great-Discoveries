@@ -3,7 +3,7 @@
 	"description": "The Shanxi province is commonly referred to as the Cradle of Chinese Civilization",
 	"latitude": 37.2426,
 	"longitude": 111.8569,
-	"category": "labor"
+	"category": "settlement"
 }, {
 	"name": "Turpan",
 	"description": "Turpan was a stop on the silk road, the trade route that linked China with India, the Middle East, and Rome. The wealth from the silk road made Turpan a very wealthy city.  Within these city walls are the remains of broken houses, earth pagodas, and a network of streets.",
@@ -15,7 +15,7 @@
 	"description": "Xi’an is the 19 square mile tomb of the Emperor Qin Shi Huang. He united the warring states of China under his rule, extended the road networks, created a standard currency, and so much more!",
 	"latitude": 34.3416,
 	"longitude": 108.9398,
-	"category": "wealth"
+	"category": "ritual"
 }, {
 	"name": "Ajanta Caves",
 	"description": "The Ajanta Caves are thirty rock-cut Buddhist cave monuments which date from the 2nd century BCE to about 480 CE in India. The caves include both rock cut sculptures and elaborate paintings and are regarded as some of the finest surviving examples of ancient Indian art in the world",
@@ -45,25 +45,25 @@
 	"description": "Mount Sandel is a 9,000 year old campsite in Northern Ireland. This site provides information on those that lived thousands of years ago in Ireland’s first homes.",
 	"latitude": 55.113060,
 	"longitude": -6.664260,
-	"category": "labor"
+	"category": "settlement"
 }, {
 	"name": "Oseberg",
 	"description": "The Oseberg Viking Ship Burial contained the remains of two Viking women. There is speculation about who these women are, but the extravagance of the burial indicates they were high ranking women in their community.",
 	"latitude": 59.269922,
 	"longitude": 10.407111,
-	"category": "community"
+	"category": "ritual"
 }, {
 	"name": "Star Carr",
 	"description": "Dating to 9,000 BC, Star Carr has some of the earliest evidence for carpentry in Britain. It may also have been religiously significant; many antler skull headdresses have been found at the site",
 	"latitude": 54.214581,
 	"longitude": -0.421944,
-	"category": "ritual"
+	"category": "settlement"
 }, {
 	"name": "Sutton Hoo",
 	"description": "Sutton Hoo is the ship burial for the Viking Ruler Raedwald. It’s notable for the fantastical artifacts found with it, such as a lyre, weaponry, gold, and gems",
 	"latitude": 52.0894321,
 	"longitude": 1.3387588,
-	"category": "Ritual"
+	"category": "ritual"
 }, {
 	"name": "Skuldelev",
 	"description": "The Skuldelev Ships were five ships purposely sunk off the coast as Denmark in order to protect the town from the attack of enemy raiders!",
@@ -106,13 +106,13 @@
 	"latitude": 37.3544,
 	"longitude": -108.6204,
 	"url": "https://mediaspace.msu.edu/media/Test+recording/1_u6dk0xrv",
-	"category": "labor"
+	"category": "settlement"
 }, {
 	"name": "Lehner Mammoth-Kill Site",
 	"description": "The Lehner Mammoth Kill Site is located in Southern Arizona in the United States. Over the years of excavation evidence was found of nine sets of mammoth bones, leading to the conclusion that the area was considered a kill site that early hunters used to trap and kill their prey.",
 	"latitude": 31.4217,
 	"longitude": -110.1148,
-	"category": "architecture"
+	"category": "settlement"
 }, {
 	"name": "Pueblo Grande",
 	"description": "Pueblo Grande is a massive city of the Hohokam people, with a platform mound, irrigation system, and even ball courts.",
