@@ -1,7 +1,7 @@
 [{
 	"name": "Shanxi",
 	"description": "The Shanxi province is commonly referred to as the Cradle of Chinese Civilization",
-	"image": "/Great-Discoveries/shanxi.jpg",
+	"image": "Great-Discoveries/shanxi.jpg",
 	"latitude": 37.2426,
 	"longitude": 111.8569,
 	"category": "settlement"
