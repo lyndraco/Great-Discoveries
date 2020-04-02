@@ -329,6 +329,8 @@
 					    href: place.url,
 					    title: place.name,
 					    description: place.description,
+					    images: place.image,
+					    video: place.video,
 					    icon: {
 						    iconUrl: getIconFromCategory(place.category),
 						    iconSize: [50, 50],
@@ -376,7 +378,7 @@
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-                        var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p>For a short presentation on the site, visit <a href="' + feature.properties.href + '">here.</a>';
+		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> +feature.properties.image + </p><p>For a short presentation on the site, click <a href="' + feature.properties.video + '">here.</a>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
