@@ -1,7 +1,7 @@
 [{
 	"name": "Shanxi",
 	"description": "The Shanxi province is commonly referred to as the Cradle of Chinese Civilization",
-	"image": "https://en.wikipedia.org/wiki/Shanxi#/media/File:Mount_Wutai.JPG",
+	"image":"<img src = shanxi.jpg>",
 	"latitude": 37.2426,
 	"longitude": 111.8569,
 	"category": "settlement"
@@ -114,6 +114,8 @@
 	"description": "The Lehner Mammoth Kill Site is located in Southern Arizona in the United States. Over the years of excavation evidence was found of nine sets of mammoth bones, leading to the conclusion that the area was considered a kill site that early hunters used to trap and kill their prey.",
 	"latitude": 31.4217,
 	"longitude": -110.1148,
+	"image":"<img src = lehner.JPG>",
+	"video": "https://mediaspace.msu.edu/id/1_bhgi63bh?width=705&height=443&playerId=27551951",
 	"category": "settlement"
 }, {
 	"name": "Pueblo Grande",
