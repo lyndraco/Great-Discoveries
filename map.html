@@ -121,7 +121,7 @@
                   var places = [{
 	"name": "Shanxi",
 	"description": "The Shanxi province is commonly referred to as the Cradle of Chinese Civilization.",
-	"image":"https://en.wikipedia.org/wiki/Shanxi#/media/File:Mount_Wutai.JPG",
+	"image":"<img src = https://en.wikipedia.org/wiki/Shanxi#/media/File:Mount_Wutai.JPG>",
 	"latitude": 37.2426,
 	"longitude": 111.8569,
 	"category": "settlement"
@@ -380,7 +380,7 @@
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> <img src="'+ feature.properties.images + '></p> <p> For a short presentation on the site, click <a href="' + feature.properties.video + '"> here.</a>';
+		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> '+ feature.properties.images + ' </p> <p> For a short presentation on the site, click <a href="' + feature.properties.video + '"> here.</a>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
