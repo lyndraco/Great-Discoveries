@@ -382,7 +382,7 @@
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> '+ feature.properties.images + ' </p> <p> Watch a short video on this site by clicking <a href= "' + feature.properties.video + '" here. </a>';
+		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> '+ feature.properties.images + ' </p> <p> Watch a short video on this site by clicking <a href= "' + feature.properties.video + '"> here. </a>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
