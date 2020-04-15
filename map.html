@@ -160,6 +160,7 @@
 	"description": "Harrapa is one of the first and oldest cities, dating to 3800 BC. As the capital of the Indus Valley Civilization, the tow had planned roads, multistory buildings, bath houses, and even swimming pools.",
 	"latitude": 30.6110,
 	"longitude": 72.8929,
+	"video": "https://mediaspace.msu.edu/media/Harappa/1_n4fu16i7",
 	"category": "architecture"
 }, {
 	"name": "Mount Sandel",
@@ -227,6 +228,7 @@
 	"description": "Crow Canyon is an archaeological site located roughly 30 miles outside of Farmington, New Mexico. The site is viewed by modern day archaeologists as some of the best and most extensive examples of rock art in the American southwest.",
 	"latitude": 37.3544,
 	"longitude": -108.6204,
+	"url": "https://mediaspace.msu.edu/id/1_u6dk0xrv?width=705&height=443&playerId=27551951",
 	"category": "settlement"
 }, {
 	"name": "Lehner Mammoth-Kill Site",
@@ -234,6 +236,7 @@
 	"latitude": 31.4217,
 	"longitude": -110.1148,
 	"image":"<img src = lehner.JPG>",
+	"video": "https://mediaspace.msu.edu/id/1_bhgi63bh?width=705&height=443&playerId=27551951",
 	"category": "settlement"
 }, {
 	"name": "Pueblo Grande",
@@ -389,7 +392,7 @@
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-		var content = '<h2>' + feature.properties.title + '</h2> '+ feature.properties.images + '<p>' + feature.properties.description + '</p>;
+		var content = '<h2>' + feature.properties.title + '</h2><p>' + feature.properties.description + '</p><p> '+ feature.properties.images + ' </p> <p> Watch a short video on this site by clicking <a href= "' + feature.properties.video + '"> here. </a>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
