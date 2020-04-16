@@ -394,7 +394,7 @@
                         var marker = e.layer;
                         var feature = marker.feature;
 		var content = '<h2>' + feature.properties.title + '</h2><p>'+ feature.properties.images + '</p><p>' + feature.properties.description + '</p><p> Watch a short video '+feature.properties.video+'';
-                        marker.bindPopup(content);
+                        marker.bindPopup(content, {maxWidth: "auto"});
                         marker.setIcon(L.icon(feature.properties.icon));
                         
                   });
