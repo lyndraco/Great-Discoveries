@@ -393,7 +393,7 @@
                   myLayer.on('layeradd', function(e) {
                         var marker = e.layer;
                         var feature = marker.feature;
-		var content = '<h2>' + feature.properties.title + '</h2><p>' +feature.properties.video+;
+		var content = '<h2>' + feature.properties.title + '</h2><p>' +feature.properties.video+ </p>';
                         marker.bindPopup(content);
                         marker.setIcon(L.icon(feature.properties.icon));
                         
