@@ -203,6 +203,7 @@
 	"description": "Sutton Hoo is the ship burial for the Viking Ruler Raedwald. It’s notable for the fantastical artifacts found with it, such as a lyre, weaponry, gold, and gems",
 	"latitude": 52.0894321,
 	"longitude": 1.3387588,
+	"video": "<iframe width='560' height='315' src = 'https://www.youtube.com/embed/2OjsvlPV7rk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
 	"image":"<img src = img/sutton.jpg>",
 	"category": "ritual"
 }, {
@@ -445,6 +446,9 @@
                   setTimeout(function() {
                         myLayer.setGeoJSON(thesePlacesGeoJSON);
                   }, 500)
-</script>
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
+	      </script>
 </body>
 </html>
